@@ -1,0 +1,192 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(mapa.jpg);
+    
+}
+section#tela
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+section#texto
+{
+  
+    
+    width:100%;
+    height:100%;
+    background: ;
+    position: absolute;
+    margin: 0px;
+} 
+
+label
+{
+
+    background: red;
+    font-family:Arial,sans-sarif;
+    font-size:19px;
+    color:white;
+}
+
+#label-um
+{
+   border-radius:100%;
+   padding: 23.5px 10px 23.5px 10px;
+   margin-top: 21.3rem;
+   margin-left: 2.8rem;
+   position: absolute;
+   
+}
+
+#label-dois
+{
+   border-radius:100%;
+   padding: 23.5px 4px 23.5px 4px;
+   margin-top: 20.2rem;
+   margin-left: 17.4rem;
+   position: absolute;
+   
+}
+
+#label-trez
+{
+   border-radius:100%;
+   padding: 23.5px 19px 23.5px 19px;
+   margin-top: 25.5rem;
+   margin-left: 26rem;
+   position: absolute;
+   
+}
+
+#label-fechar
+{
+    padding: 6px 9px 6px 9px;
+    float: right;
+    float: right;
+    background: #34495E;
+    color:white;
+    margin: 4px;
+   
+}
+
+.span-mostra
+{
+    font-family: Arial,sans-sarif;
+    font-size: 20px;
+}
+
+.p-text-mostra
+{
+    margin: 0px;
+}
+
+
+#um , #dois , #trez
+{
+    width: 100%;
+    margin: 0px;
+    z-index: 3;
+    position: relative;
+    height: 100%;
+}
+
+#um
+{
+background: #2C3E50;
+color:white;
+}
+#dois
+{
+background: #2C3E50;
+ color:white;
+}
+#trez
+{
+background: #2C3E50;
+color:white;
+}
+
+input
+{
+    display: none;
+}
+
+input {name="abas"}:checked + label
+{
+    background:blue;
+}
+
+.span-mostra
+{
+display: none;
+}
+
+#abaEvento:checked ~ #um
+{
+    display: block;
+}
+
+
+
+#abaEventoo:checked ~ #dois
+{
+    display: block;
+}
+
+#abaEventooo:checked ~ #trez
+{
+    display: block;
+}
+
+.text-img
+{
+    display: block;
+    width: 100%;
+    height: 80%;
+    background: #e3e3e3;
+}
+
+.img-imagem
+{
+    width: 60%;
+    height: 97%;
+    margin: 6px;
+    float: left;
+    
+    
+}
+
+.img-imagem-one
+{
+    width: 120px;
+    height: 96%;
+    margin: 0px 0px 0px 5px;
+    border:solid 1px white;
+    
+}
+
+.p-texto
+{
+    float: left;
+    width: 34%;
+    height: 418px;
+    background: #f4f4f4;
+    border:solid 1px black;
+    color: #3c3c3c;
+    font-family: Arial,sans-serif;
+    margin-top: 6px;
+    padding: 5px;
+    text-indent: 12px;
+    margin-left: -6px;
+}
+
+iframe
+{
+    width: 800px;
+    height:456px; 
+        
+        
+}
